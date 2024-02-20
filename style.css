@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"Poppins";
+}
+
+.light{
+    color:black;
+    background-color: white;
+}
+
+.dark{
+    color:white;
+    background-color: black;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: lightslategray;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 90px;
+    color: whitesmoke;
+}
+
+button{
+    padding: 10px 17px;
+    background-color: aliceblue;
+    border: 2px solid rgb(165, 186, 204);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+button:hover{
+    background-color: rgb(165, 186, 204);
+    border-color: aliceblue;
+    transform:scale(0.97);
+    cursor: pointer;
+}
+
+.winner-msg{
+    height: 30vh;
+    width: 30vw;
+    border: 5px solid rgb(150, 206, 255);
+    border-radius: 40px;
+}
+
+.hide{
+    display: none;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -27,6 +27,7 @@ themebtn.onclick = () =>{
 resetbtn.onclick = () =>{
     for (let box of boxes){
         box.innerText = "";
+        box.disabled = false;
     }
 }
 
@@ -34,6 +35,7 @@ resetbtn.onclick = () =>{
 newbtn.onclick = () =>{
     for (let box of boxes){
         box.innerText = "";
+        box.disabled = false;
     }
     winBox.classList.remove("flex-box");
     head.classList.remove("hide");
@@ -64,6 +66,7 @@ const checkforwin = () =>{
 for (let box of boxes){
     box.addEventListener('click', () =>{
         box.innerText = turn;
+        box.disabled = true;
         if (turn === "X"){
             checkforwin();
             turn = "O";

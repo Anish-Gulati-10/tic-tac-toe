@@ -44,10 +44,10 @@ body{
     color: whitesmoke;
 }
 
-button{
+.game-button{
     padding: 10px 17px;
     background-color: aliceblue;
-    border: 2px solid rgb(165, 186, 204);
+    border: 2px solid lightsteelblue;
     border-radius: 20px;
     margin: 15px;
 }
@@ -62,7 +62,7 @@ button:hover{
 .winner-msg{
     height: 30vh;
     width: 30vw;
-    border: 5px solid rgb(150, 206, 255);
+    border: 7px solid lightslategray;
     border-radius: 40px;
 }
 
